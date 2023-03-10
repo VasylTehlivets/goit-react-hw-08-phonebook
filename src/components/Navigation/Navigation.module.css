@@ -1,0 +1,14 @@
+.link {
+    font-weight: 700;
+    font-size: 25px;
+    transition-duration: 300ms;
+    color: rgba(241, 231, 239, 0.976);
+}
+
+.link:hover,
+.active {
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    transform: scale(1.1);
+}
